@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="The Walking Seven logo">
+  <defs>
+    <radialGradient id="tws-bg" cx="50%" cy="40%" r="68%">
+      <stop offset="0%" stop-color="#35353d"/>
+      <stop offset="58%" stop-color="#1f1f24"/>
+      <stop offset="100%" stop-color="#101013"/>
+    </radialGradient>
+    <linearGradient id="tws-seven" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7edd8"/>
+      <stop offset="100%" stop-color="#cbb184"/>
+    </linearGradient>
+    <linearGradient id="tws-blood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d13130"/>
+      <stop offset="100%" stop-color="#7c130f"/>
+    </linearGradient>
+    <clipPath id="tws-clip"><circle cx="128" cy="128" r="104"/></clipPath>
+  </defs>
+
+  <!-- badge -->
+  <circle cx="128" cy="128" r="120" fill="url(#tws-bg)"/>
+  <circle cx="128" cy="128" r="119" fill="none" stroke="#8f221b" stroke-width="6"/>
+  <circle cx="128" cy="128" r="104" fill="none" stroke="#f7edd8" stroke-opacity="0.22" stroke-width="2"/>
+
+  <!-- the 7 -->
+  <polygon points="72,72 184,72 184,98 146,190 112,190 146,98 72,98"
+           fill="url(#tws-seven)" stroke="#0c0c0e" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- claw scratches raking across, clipped to the badge -->
+  <g clip-path="url(#tws-clip)">
+    <g transform="rotate(-22 128 128)" fill="url(#tws-blood)" opacity="0.5">
+      <rect x="95"  y="30" width="7" height="196" rx="3.5"/>
+      <rect x="121" y="24" width="7" height="208" rx="3.5"/>
+      <rect x="147" y="32" width="7" height="192" rx="3.5"/>
+    </g>
+    <!-- blood drips -->
+    <g fill="url(#tws-blood)">
+      <circle cx="150" cy="198" r="5"/>
+      <circle cx="118" cy="206" r="3.4"/>
+    </g>
+  </g>
+</svg>

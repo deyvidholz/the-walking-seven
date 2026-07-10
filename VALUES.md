@@ -7,10 +7,21 @@ Every value this mod changes, with the **original V3 value**, the **new value**,
 
 **Legend:** `×N` = N times the original. Cooking times marked *auto* had no fixed value in V3 — the game calculated them from the recipe's ingredients (roughly 1 second per ingredient), so they were already only a few seconds; the mod pins them to a fixed value.
 
+### 🧩 Which module changes what
+The mod is split into five standalone modules — this reference covers all of them. Each section below is tagged with its module.
+
+| Section | Module folder |
+|---|---|
+| 1. Zombie ladders | `TWS-NoZombieLadders` |
+| 2. Food · 3. Water · 4. Cooking | `TWS-Food` |
+| 5. Grenades · 6. Rockets | `TWS-Explosives` |
+| 7. Inventory | `TWS-Backpack60` |
+| 8. Vehicles | `TWS-Vehicles` |
+
 ---
 
 ## 1. 🪜 Zombies can't climb ladders
-*File: `entityclasses.xml`*
+*Module: `TWS-NoZombieLadders` · File: `entityclasses.xml`*
 
 | Setting | Entity | V3 | New |
 |---|---|:-:|:-:|
@@ -21,7 +32,7 @@ Players, traders and survivor NPCs keep `true` — untouched.
 ---
 
 ## 2. 🥫 Food nutrition (fullness restored)
-*File: `items.xml` — the `$foodAmountAdd` value*
+*Module: `TWS-Food` · File: `items.xml` — the `$foodAmountAdd` value*
 
 | Item | V3 | New | Change |
 |---|:-:|:-:|:-:|
@@ -57,7 +68,7 @@ Players, traders and survivor NPCs keep `true` — untouched.
 ---
 
 ## 3. 💧 Water (hydration restored)
-*File: `items.xml` — the `$waterAmountAdd` value*
+*Module: `TWS-Food` · File: `items.xml` — the `$waterAmountAdd` value*
 
 | Item | V3 | New | Change |
 |---|:-:|:-:|:-:|
@@ -68,7 +79,7 @@ Players, traders and survivor NPCs keep `true` — untouched.
 ---
 
 ## 4. 🍳 Cooking / crafting time
-*File: `recipes.xml` — the `craft_time` (seconds)*
+*Module: `TWS-Food` · File: `recipes.xml` — the `craft_time` (seconds)*
 
 **Food**
 
@@ -129,7 +140,7 @@ Players, traders and survivor NPCs keep `true` — untouched.
 ---
 
 ## 5. 💣 Grenades & thrown explosives — entity damage
-*File: `items.xml` — `Explosion` → `EntityDamage` (block damage left at vanilla)*
+*Module: `TWS-Explosives` · File: `items.xml` — `Explosion` → `EntityDamage` (block damage left at vanilla)*
 
 | Item | Block dmg (unchanged) | V3 entity | New entity | Change |
 |---|:-:|:-:|:-:|:-:|
@@ -142,7 +153,7 @@ Players, traders and survivor NPCs keep `true` — untouched.
 ---
 
 ## 6. 🚀 Rocket launcher ammo — entity damage
-*File: `items.xml` — block damage left at vanilla*
+*Module: `TWS-Explosives` · File: `items.xml` — block damage left at vanilla*
 
 | Ammo | Damage type | V3 | New | Change |
 |---|---|:-:|:-:|:-:|
@@ -153,24 +164,24 @@ Players, traders and survivor NPCs keep `true` — untouched.
 
 ---
 
-## 7. 🎒 Inventory / backpack — 96 slots
-*Files: `entityclasses.xml` (playerMale) + `XUi_InGame/windows.xml`*
+## 7. 🎒 Inventory / backpack — 60 slots
+*Module: `TWS-Backpack60` · Files: `entityclasses.xml` (playerMale) + `XUi_InGame/windows.xml`*
 
 | Setting | File | V3 | New | Change |
 |---|---|:-:|:-:|:-:|
-| `BagSize` (real slot count) | entityclasses | 45 | 96 | **×2.13** |
-| `carryCapacityBase` (slots unlocked at start) | entityclasses | 27 | 96 | **×3.56** |
-| Backpack grid `rows` | windows | 5 | 8 | — |
+| `BagSize` (max slot count) | entityclasses | 45 | 60 | **×1.33** |
+| `carryCapacityBase` (unlocked slots) | entityclasses | 27 | 60 | **×2.22** |
 | Backpack grid `cols` | windows | 9 | 12 | — |
-| Window `width` | windows | 606 | 807 | to fit cells |
-| Window `height` | windows | 349 | 550 | to fit cells |
+| Window `width` | windows | 606 | 807 | to fit columns |
 
-Result: **8 × 12 = 96 slots**, all unlocked from the start (no armor pocket mods needed).
+Result: a **5 × 12 = 60**-slot bag, **all unlocked from the start**. The game only reliably unlocks backpack slots from the base carry capacity (not from the Pack Mule perk once the bag is enlarged), so this sets it to 60. Pack Mule's *+slots* line is redundant here, but its other effects (−crafting time in the backpack, chance to absorb damage) still work.
+
+Grid `rows` (5) and window `height` (349) are left at their **vanilla values** — 5 rows fits the screen comfortably, so only the columns (and the window width to fit them) change.
 
 ---
 
 ## 8. ⛽ Vehicles — fuel & driving drain
-*File: `vehicles.xml`*
+*Module: `TWS-Vehicles` · File: `vehicles.xml`*
 
 **Fuel efficiency (`fuelKmPerL`) — higher = burns gas slower. All ×12 → gas lasts 12× longer.**
 

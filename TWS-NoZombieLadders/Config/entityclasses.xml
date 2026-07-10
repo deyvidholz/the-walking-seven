@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+    <!-- The Walking Seven - No Zombie Ladders -->
+
+    <set xpath="//entity_class[@name='zombieTemplateMale']//property[@name='CanClimbLadders']/@value">false</set>
+</configs>

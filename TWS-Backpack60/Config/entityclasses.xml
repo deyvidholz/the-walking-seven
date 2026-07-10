@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+    <!-- The Walking Seven - 60 Slot Backpack -->
+    <!-- All 60 slots unlocked from the start. The game only reliably unlocks -->
+    <!-- backpack slots from the base carry capacity, so both BagSize and -->
+    <!-- carryCapacityBase are set to 60. -->
+
+    <set xpath="//entity_class[@name='playerMale']//passive_effect[@name='BagSize']/@value">60</set>
+    <set xpath="//entity_class[@name='playerMale']//triggered_effect[@cvar='.carryCapacityBase'][@operation='set']/@value">60</set>
+</configs>

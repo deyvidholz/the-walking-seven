@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TWS-NoZombieLadders" />
+	<DisplayName value="The Walking Seven - No Zombie Ladders" />
+	<Description value="Zombies can no longer climb ladders. Players, traders and survivor NPCs still can. A module of The Walking Seven." />
+	<Author value="deyvidholz" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/deyvidholz/the-walking-seven" />
+</xml>

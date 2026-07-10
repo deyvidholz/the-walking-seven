@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TWS-Backpack60" />
+	<DisplayName value="The Walking Seven - 60 Slot Backpack" />
+	<Description value="Expands the player backpack from 45 to 60 slots (5 rows x 12 columns), all unlocked from the start. A module of The Walking Seven." />
+	<Author value="deyvidholz" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/deyvidholz/the-walking-seven" />
+</xml>

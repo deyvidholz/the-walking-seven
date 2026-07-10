@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configs>
 
-    <!-- The Walking Seven :: Cooking / crafting times -->
+    <!-- The Walking Seven - Food and Cooking -->
 
     <setattribute name="craft_time" xpath="//recipe[@name='foodCharredMeat']">2</setattribute>
     <setattribute name="craft_time" xpath="//recipe[@name='foodGrilledMeat']">2</setattribute>

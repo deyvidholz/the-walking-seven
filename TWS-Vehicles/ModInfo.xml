@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TWS-Vehicles" />
+	<DisplayName value="The Walking Seven - Fuel Efficient Vehicles" />
+	<Description value="Vehicle gas lasts 12x longer and driving no longer drains your food or water. A module of The Walking Seven." />
+	<Author value="deyvidholz" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/deyvidholz/the-walking-seven" />
+</xml>

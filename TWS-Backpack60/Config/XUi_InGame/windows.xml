@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+    <!-- The Walking Seven - 60 Slot Backpack (5 rows x 12 columns) -->
+    <!-- rows (5) and window height stay at vanilla; only columns and the window width change -->
+
+    <setattribute name="cols" xpath="//grid[@controller='Backpack']">12</setattribute>
+    <setattribute name="width" xpath="//window[@name='windowBackpack']">807</setattribute>
+</configs>

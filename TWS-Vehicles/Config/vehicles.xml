@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configs>
 
-    <!-- The Walking Seven :: Fuel efficiency x12 + no food/water drain while driving -->
+    <!-- The Walking Seven - Fuel Efficient Vehicles -->
 
     <set xpath="//vehicle[@name='vehicleMinibike']//property[@name='fuelKmPerL']/@value">4.8</set>
     <set xpath="//vehicle[@name='vehicleMotorcycle']//property[@name='fuelKmPerL']/@value">2.4</set>

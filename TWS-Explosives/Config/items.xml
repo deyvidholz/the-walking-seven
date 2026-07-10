@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+    <!-- The Walking Seven - Explosives -->
+
+    <set xpath="//item[@name='thrownAmmoPipeBomb']//property[@name='EntityDamage']/@value">800</set>
+    <set xpath="//item[@name='thrownAmmoPipeBomb']//display_value[@name='dExEntityDamage']/@value">800</set>
+    <set xpath="//item[@name='thrownGrenade']//property[@name='EntityDamage']/@value">1050</set>
+    <set xpath="//item[@name='thrownGrenade']//display_value[@name='dExEntityDamage']/@value">1050</set>
+    <set xpath="//item[@name='thrownGrenadeContact']//property[@name='EntityDamage']/@value">1050</set>
+    <set xpath="//item[@name='thrownGrenadeContact']//display_value[@name='dExEntityDamage']/@value">1050</set>
+    <set xpath="//item[@name='thrownDynamite']//property[@name='EntityDamage']/@value">1600</set>
+    <set xpath="//item[@name='thrownDynamite']//display_value[@name='dExEntityDamage']/@value">1600</set>
+    <set xpath="//item[@name='thrownTimedCharge']//property[@name='EntityDamage']/@value">2000</set>
+    <set xpath="//item[@name='thrownTimedCharge']//display_value[@name='dExEntityDamage']/@value">2000</set>
+    <set xpath="//item[@name='ammoRocketHE']//property[@name='EntityDamage']/@value">1300</set>
+    <set xpath="//item[@name='ammoRocketHE']//passive_effect[@name='EntityDamage']/@value">200</set>
+    <set xpath="//item[@name='ammoRocketHE']//display_value[@name='dExEntityDamage']/@value">1300</set>
+    <set xpath="//item[@name='ammoRocketFrag']//property[@name='EntityDamage']/@value">2200</set>
+    <set xpath="//item[@name='ammoRocketFrag']//passive_effect[@name='EntityDamage']/@value">300</set>
+    <set xpath="//item[@name='ammoRocketFrag']//display_value[@name='dExEntityDamage']/@value">2200</set>
+</configs>
