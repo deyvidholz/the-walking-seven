@@ -6,3 +6,6 @@ desktop.ini
 *~
 .vscode/
 .idea/
+
+# Windows mark-of-the-web artifacts
+*:Zone.Identifier
