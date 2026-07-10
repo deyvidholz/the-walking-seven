@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TheWalkingSeven" />
+	<DisplayName value="The Walking Seven" />
+	<Description value="Quality-of-life overhaul for 7 Days to Die V3: zombies can't climb ladders, hearty canned/cooked food, near-instant cooking, twice-as-deadly explosives, a 96-slot backpack, and vehicles that sip fuel and never drain your food/water. Pure XML/XPath - no DLLs." />
+	<Author value="deyvidholz" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/deyvidholz/the-walking-seven" />
+</xml>

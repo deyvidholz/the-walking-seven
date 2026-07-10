@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+    <!-- The Walking Seven :: Cooking / crafting times -->
+
+    <setattribute name="craft_time" xpath="//recipe[@name='foodCharredMeat']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodGrilledMeat']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodBoiledMeat']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodCornOnTheCob']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodCornBread']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodCornMeal']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodBakedPotato']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodEggBoiled']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodCanSham']">3</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodChiliDog']">3</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodFishTacos']">3</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodBaconAndEggs']">3</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodPumpkinBread']">3</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodBlueberryPie']">4</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodPumpkinPie']">4</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodPumpkinCheesecake']">4</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodSteakAndPotato']">4</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodMeatStew']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodVegetableStew']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodGumboStew']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodHoboStew']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodShamChowder']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodHoneyGlazedSham']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodHoneyBrisket']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodShepardsPie']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodSpaghetti']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodTunaFishGravyToast']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodBurntSmoothie']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodOasisSmoothie']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodFrostbiteSmoothie']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='foodAtomicSmoothie']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarBoiledWater']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarPureMineralWater']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarYuccaJuice']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarGoldenRodTea']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarHoneyTea']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarRedTea']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarCoffee']">2</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarBlackStrapCoffee']">3</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkYuccaJuiceSmoothie']">4</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarBeer']">4</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarGrandpasMoonshine']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarGrandpasLearningElixir']">5</setattribute>
+    <setattribute name="craft_time" xpath="//recipe[@name='drinkJarGrandpasAwesomeSauce']">8</setattribute>
+</configs>

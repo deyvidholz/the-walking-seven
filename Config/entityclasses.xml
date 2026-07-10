@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+    <!-- The Walking Seven :: Zombies off ladders + 96-slot backpack (BagSize & carry capacity) -->
+
+    <set xpath="//entity_class[@name='zombieTemplateMale']//property[@name='CanClimbLadders']/@value">false</set>
+    <set xpath="//entity_class[@name='playerMale']//passive_effect[@name='BagSize']/@value">96</set>
+    <set xpath="//entity_class[@name='playerMale']//triggered_effect[@cvar='.carryCapacityBase'][@operation='set']/@value">96</set>
+</configs>

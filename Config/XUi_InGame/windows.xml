@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+
+    <!-- The Walking Seven :: Backpack window: 8x12 grid, resized to fit 96 cells -->
+
+    <setattribute name="rows" xpath="//grid[@controller='Backpack']">8</setattribute>
+    <setattribute name="cols" xpath="//grid[@controller='Backpack']">12</setattribute>
+    <setattribute name="width" xpath="//window[@name='windowBackpack']">807</setattribute>
+    <setattribute name="height" xpath="//window[@name='windowBackpack']">550</setattribute>
+</configs>
